@@ -20,7 +20,7 @@ Layout improved with css
 
 
 ## 🔗 Links
-- [View Live Portfolio (after deployment)](https://yourusername.github.io/your-repo-name/)
+- [View Live Portfolio (after deployment)][(https://yourusername.github.io/your-repo-name/)](https://muhsinah-moninuola.github.io/Alaran-Muhsinah-Portfolio/)
 - [GitHub](https://github.com/Muhsinah-moninuola)
 - [LinkedIn](https://www.linkedin.com/in/muhsinah-alaran-mnifst-188470215)
 
