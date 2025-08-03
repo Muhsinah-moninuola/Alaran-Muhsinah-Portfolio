@@ -1,0 +1,334 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e2f;
+    color: #f4f4f5;
+    line-height: 1.8; 
+}
+
+section{
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 2rem auto;
+    line-height: 1.6;
+    font-size: 1rem;
+    overflow: auto;
+}
+
+/* Header / Nav */
+header {
+    background-color: #2a2a3d;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f4f4f5;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #3b3b53;
+}
+
+#meet-muhsinah h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #AA0055;
+    text-align: center;
+}
+
+#meet-muhsinah p {
+    margin-bottom: 1rem;
+    text-align: justify;
+    color:#ccc
+}
+
+.profile-pic {
+    float: left;
+    margin-right: 1.5rem;
+    width: auto;
+    height: 300px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+#my-education {
+    padding: 2rem;
+    background-color: #272739;
+    color: #f4f4f5;
+    max-width: 900px;
+    margin: 2rem auto;
+}
+
+#my-education h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #AA0055
+}
+
+.edu-card {
+    background-color: #1e1e2f;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.edu-card h3 {
+    margin-top: 0;
+    font-size: 1.25rem;
+    color: #f4f4f5;
+}
+
+.edu-card img {
+    margin-top: 1rem;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    display: block;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+#interests h2 {
+    color: #AA0055;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.interest-card {
+    background-color: #2a2a3d;
+    border: 1px solid #3b3b53;
+    border-radius: 15px;
+    padding: 1rem;
+    width: 220px;
+    height: auto; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+    color: #f4f4f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.interest-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+}
+
+.interest-card h3 {
+    color: #f4f4f5;
+    margin-top: 0;
+    font-size: 1.1rem;
+}
+
+.interest-card p {
+    font-size: 0.85rem;
+    color: #ccc;
+}
+
+#experience {
+    background-color: #1e1e2f; 
+    color: #AA0055;
+    max-width: 1000px;
+    margin: 2rem auto;
+}
+
+#experience h1 {
+    color: #AA0055; 
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+.experience-category {
+    margin-bottom: 0.2rem;
+}
+
+.experience-category h3 {
+    color: #f4f4f5;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    text-align: left;
+    font-weight: 600;
+}
+
+.experience-list {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    padding: 0;
+    list-style: none;
+}
+
+.experience-list li {
+    background-color: #1e1e2f;
+    border: 1px solid #3b3b53;
+    border-radius: 15px;
+    padding: 1rem 1.2rem;
+    box-shadow: 0 4px 12px rgba(160, 80, 85, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    color: #f4f4f5;
+}
+
+.experience-list li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(160, 80, 85, 0.15);
+}
+
+.experience-list li strong {
+    display: block;
+    color: #f4f4f5;
+    margin-bottom: 0.25rem;
+    font-weight: 600;
+}
+
+.experience-list li span {
+    font-size: 0.9rem;
+    color: #f4f4f5;
+}
+
+/* TOOLKIT section */
+#toolkit {
+    background-color: #1e1e2f;
+    color: #f4f4f5;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+#toolkit h2 {
+    color: #AA0055;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.tech-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.tech-item {
+    background-color: #26263d; /* deep bluish-purple */
+    border: 1px solid #3b3b53;
+    padding: 0.8rem 1.5rem;
+    border-radius: 12px;
+    font-weight: 600;
+    color: #f4f4f5;
+    font-size: 1rem;
+    box-shadow: 0 4px 10px rgba(160, 0, 85, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tech-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 16px rgba(160, 0, 85, 0.15);
+}
+
+/* LET'S CONNECT section */
+#lets-connect {
+    background-color: #1e1e2f;
+    color: #f4f4f5;
+    max-width: 1000px;
+    margin: 2rem auto;
+}
+
+#lets-connect h2 {
+    color: #AA0055;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+#lets-connect form {
+    max-width: 600px;
+    margin: auto;
+}
+
+#lets-connect input,
+#lets-connect textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 10px;
+    border: 1px solid #3b3b53;
+    background-color: #1e1e2f;
+    color: #f4f4f5;
+}
+
+#lets-connect button {
+    background-color: #AA0055;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#lets-connect .social-icons {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+#lets-connect .social-icons a {
+    color: #f4f4f5;
+    transition: color 0.3s;
+}
+
+#lets-connect .social-icons a:hover {
+    color: #AA0055;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.social-icons a {
+    color: #f4f4f5;
+    font-size: 2rem;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #AA0055;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #1e1e2f;
+    color: #f4f4f5;
+    font-size: 0.9rem;
+}
