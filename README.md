@@ -13,10 +13,11 @@ What You'll Find Here
 How It's Built
 This is a simple static website built using:
 - HTML
-- (CSS coming soon 😉)
+- (CSS Added)
 
 Status
-Still a work-in-progress. I plan to improve the layout with CSS and possibly host it with GitHub Pages.
+Layout improved with css
+
 
 ## 🔗 Links
 - [View Live Portfolio (after deployment)](https://yourusername.github.io/your-repo-name/)
